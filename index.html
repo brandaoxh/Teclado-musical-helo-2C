@@ -1,25 +1,57 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR"> <!-- Define a linguagem da página -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css"
-    <link rel="stylesheet" href="style.css"
+    <meta charset="UTF-8"> <!-- Codificação de caracteres UTF-8 -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Compatibilidade com IE -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsividade -->
+
+    <title>AnimeQ</title> <!-- Título da aba -->
+
+    <!-- Importação da fonte Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+
+    <!-- Ícone da aba -->
+    <link rel="icon" type="image/png" href="img/4043233-anime-away-face-no-nobody-spirited_113254.png">
+
+    <!-- Reset de estilos e CSS principal -->
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Efeitos som</h1>
-    <h2>Pagodes</h2>
+
+    <!-- Título principal -->
+    <h1>Aberturas de animes</h1>
+
+    <!-- Container das teclas -->
     <section class="teclado">
-        <button class="tecla tecla-som-1"><img src="./img/bom gosto.jpg"></button>
-          <button class="tecla tecla-som-2"><img src="./img/Exaltasamba.jpg"></button>
-          <button class="tecla tecla-som-3"><img src="./img/grupo mais é menos.jpg"></button>
-        <button class="tecla tecla-som-4"><img src="./img/grupo revelação.jpg"></button>
-        <button class="tecla tecla-som-5"><img src="./img/molejo.jpg"></button>
-        <button class="tecla tecla-som-6"><img src="./img/os morenos.jpg"></button>
-        <button class="tecla tecla-som-7"><img src="./img/pixote.jpeg"></button>
-        <button class="tecla tecla-som-8"><img src="./img/thiaguinho.jpg"></button>
-        <button class="tecla tecla-som-9"><img src="./img/turma do pagode.jpg"></button>
+        <!-- Cada botão contém uma imagem ilustrativa -->
+        <button class="tecla tecla_som1"><img src="img/turma do pagode.jpg" alt="Som 1"></button>
+        <button class="tecla tecla_som2"><img src="img/grupo mais é menos.jpg" alt="Som 2"></button>
+        <button class="tecla tecla_som3"><img src="img/bom gosto.jpg"Som 3"></button>
+
+        <button class="tecla tecla_som4"><img src="img/grupo revelação.jpg" alt="Som 4"></button>
+        <button class="tecla tecla_som5"><img src="img/pixote.jpeg" alt="Som 5"></button>
+        <button class="tecla tecla_som6"><img src="img/molejo.jpg" alt="Som 6"></button>
+
+        <button class="tecla tecla_som7"><img src="img/os morenos.jpg" alt="Som 7"></button>
+        <button class="tecla tecla_som8"><img src="img/thiaguinho.jpg" alt="Som 8"></button>
+        <button class="tecla tecla_som9"><img src="img/Exaltasamba.jpg" alt="Som 9"></button>
     </section>
+
+    <!-- Áudios correspondentes aos botões -->
+    <audio src="sons/AUD-20200628-WA0040.mp3" id="som_tecla_som1"></audio>
+    <audio src="sons/AUD-20230427-WA0346.mp3" id="som_tecla_som2"></audio>
+    <audio src="sons/Bom Gosto - Patricinha de Olho Azul (Ao Vivo)(MP3_160K) (1).mp3" id="som_tecla_som3"></audio>
+    <audio src="sons/Grupo Revelacao - Ta Escrito.mp3" id="som_tecla_som4"></audio>
+    <audio src="sons/Insegurança - Pixote.mp3" id="som_tecla_som5"></audio>
+    <audio src="sons/Molejo - Dança da Vassoura (Ao Vivo) [496gcMgXQrU].mp3" id="som_tecla_som6"></audio>
+    <audio src="sons/Os Morenos - Marrom Bombom (Pseudo Video) (Pseudo Video) [FpE0OB4VHIY].mp3" id="som_tecla_som7"></audio>
+    <audio src="sons/Thiaguinho - Buquê de Flores(MP3_70K).mp3" id="som_tecla_som8"></audio>
+    <audio src="sons/Tá Vendo Aquela Lua [TAuaipsFvtk].mp3" id="som_tecla_som9"></audio>
+
+    <!-- Script principal -->
+    <script src="main.js"></script>
 </body>
 </html>
