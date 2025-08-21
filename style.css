@@ -36,8 +36,8 @@ h2 {
 
 /* Container do teclado */
 .teclado {
-  background: linear-gradient(to bottom, #080808 0%,#2d2d2d 100%); /* Fundo em degradê cinza */
-  box-shadow: 6px 8px 0 6px #373636, 10px 10px 10px #000;             /* Sombra externa */
+  background: linear-gradient(to bottom, #49141d 0%,#250d0d 100%); /* Fundo em degradê cinza */
+  box-shadow: 6px 8px 0 6px #4e1c1c, 10px 10px 10px #581818;             /* Sombra externa */
   border-radius: 30px;                                             /* Bordas arredondadas */
   display: grid;                                                   /* Layout em grid */
   gap: 10px;                                                       /* Espaçamento entre botões */
