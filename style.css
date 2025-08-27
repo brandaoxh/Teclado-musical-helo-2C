@@ -22,7 +22,7 @@ body {
 
 /* Estilo do título principal */
 h1 {
-  color: var(--branca);   /* Cor branca */
+  color: var(--preta);   /* Cor branca */
   margin-bottom: 20px;    /* Espaço inferior */
   font-size: 2rem;        /* Tamanho da fonte */
 }
@@ -36,7 +36,7 @@ h2 {
 
 /* Container do teclado */
 .teclado {
-  background: linear-gradient(to bottom, #49141d 0%,#8a4c66 100%); /* Fundo em degradê cinza */
+  background: linear-gradient(to bottom, #49141d 0%,#da4c5a 100%); /* Fundo em degradê cinza */
   box-shadow: 6px 8px 0 6px #4e1c1c, 10px 10px 10px #581818;             /* Sombra externa */
   border-radius: 30px;                                             /* Bordas arredondadas */
   display: grid;                                                   /* Layout em grid */
